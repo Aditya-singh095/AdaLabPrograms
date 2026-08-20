@@ -48,3 +48,10 @@ def myPow(x: float, n: int) -> float:
         n //= 2
 
     return result
+
+nums = [-1, 0, 3, 5, 9, 10] 
+    target = 5 
+    print("Index:", search(nums, target)) 
+    print("Power:", myPow(2.0, 9)) 
+    print("Power:", myPow(4.0,-2))}
+
